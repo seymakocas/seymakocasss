@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- title -->
+    <title>Seyma Kocas</title>
+
+    <meta name="robots" content="noindex">
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./resources/icons/logo_icons/favicon.png"
+      type="image/x-icon"
+      sizes="96x96"
+    />\
+    <link rel="stylesheet" href="index.css">
+
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Seyma Kocas is junior developer who specializes in building (and occasionally designing) exceptional digital experiences."
+    />
+    <meta
+      name="image"
+      content=""
+    />
+    <meta
+      name="google-site-verification"
+      content="TqbGeOlY7lnL1_FytT1brC4f0sNZ51l7SxP5ngRWsSA"
+    />
+
+   
+  
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:alt" content="website front design" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+
+  
+  
+  
+
+
+    <!-- fonts -->
+    <link href="http://fonts.cdnfonts.com/css/calibre" rel="stylesheet" />
+    <link href="http://fonts.cdnfonts.com/css/sf-mono" rel="stylesheet" />
+
+  
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- scripts-->
+    <script src="index.js" defer></script>
+   
+  </head>
+  <body class="bg-dark">
+    <div class="wrapper">
+      <header
+        id="header"
+        class="f-clr-light bg-dark-transparent animate__animated"
+      >
+        <div class="container">
+          <div
+            class="logo-container"
+            onclick="document.body.scrollIntoView(true)"
+          >
+            <div class="logo-img">
+              <img
+                src="logo.png"
+                alt="logo"
+              />
+            </div>
+            <div class="logo-text">Seyma<br />Kocas</div>
+          </div>
+          <div class="nav-container">
+            <nav>
+              <ul class="nav-links">
+                <div
+                  class="link animate__animated animate__fadeInDown animate__delay-1s"
+                >
+                  <li>
+                    <a
+                      class="link-animation"
+                      onclick="document.getElementById('aboutme').scrollIntoView(true)"
+                    >
+                      About me
+                    </a>
+                  </li>
+                </div>
+                <div
+                  class="link animate__animated animate__fadeInDown animate__delay-2s"
+                >
+                  <li>
+                    <a
+                      class="link-animation"
+                      onclick="document.getElementById('project').scrollIntoView(true)"
+                    >
+                      Projects
+                    </a>
+                  </li>
+                </div>
+                <div
+                  class="link animate__animated animate__fadeInDown animate__delay-3s"
+                >
+                  <li>
+                    <a
+                      class="link-animation"
+                      onclick="document.getElementById('contact').scrollIntoView(true)"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                </div>
+                <div
+                  class="link animate__animated animate__fadeInDown animate__delay-4s"
+                >
+                  <li>
+                    <!--<a href="/cv.html" target="_blank">
+                      <button class="button bg-button f-clr-button">
+                        CV
+                      </button>
+                    </a>-->
+                  </li>
+                </div>
+              </ul>
+            </nav>
+          </div>
+          <div id="hamburger" class="mobile-nav-container">
+            <button class="menu" aria-label="Main Menu">
+              <svg width="100" height="100" viewBox="0 0 100 100">
+                <path
+                  class="line line1"
+                  d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+                />
+                <path class="line line2" d="M 20,50 H 80" />
+                <path
+                  class="line line3"
+                  d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+                />
+              </svg>
+            </button>
+          </div>
+          <nav id="mobile-nav">
+            <ul>
+              <li
+                onclick="document.getElementById('aboutme').scrollIntoView(true)"
+              >
+                <a class="link-animation l"> About me </a>
+              </li>
+              <li
+                onclick="document.getElementById('project').scrollIntoView(true)"
+              >
+                <a class="link-animation l">Projects</a>
+              </li>
+              <li
+                onclick="document.getElementById('contact').scrollIntoView(true)"
+              >
+                <a class="link-animation l">Contact</a>
+              </li>
+              <li>
+                <!--<a href="/cv.html" target="_blank" class="l">
+                  <button class="button bg-button f-clr-button">CV</button>
+                </a>-->
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section id="home" class="first-section">
+          <div class="container f-clr-light">
+            <span
+              class="animate__animated animate__fadeInUp animate__delay-3s"
+              style="display: block"
+              >Hi, my name is</span
+            >
+            <h1 class="animate__animated animate__fadeInUp animate__delay-3s">
+              Seyma Kocas.
+            </h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-4s">
+              I am Junior Software Developer based in London.
+            </p>
+            
+            <!--<a href="/cv.html" target="_blank">
+              <button
+                class="button bg-button f-clr-button animate__animated animate__fadeInUp animate__delay-5s"
+              >
+                Check out my CV
+              </button>
+            </a>-->
+            <a href="mailto: seymakocas@gmail.com">
+              <button
+                class="button bg-button f-clr-button block-fadeIn animate__animated"
+              >
+                Get In Touch
+              </button>
+            </a>
+          </div>
+        </section>
+
+        <section id="aboutme" class="second-section">
+          <div class="container f-clr-medium">
+            <div class="text-block block-fadeIn animate__animated">
+              <div id="aboutmem" class="aboutme-header">
+                <h2>About me</h2>
+                <div class="line"></div>
+              </div>
+              <p>
+               Hello! I am a Junior Software Developer who has recently embarked on my career journey. 
+               Equipped with strong organization, time management, and communication skills, 
+               <br><br>I am capable of working independently as well as collaboratively in a team.
+                I pay meticulous attention to detail and strive to demonstrate these qualities 
+                in every project I undertake.<br />
+              </p>
+            </div>
+            <div class="img-block block-fadeIn animate__animated">
+              <img src="IMG_8388.jpg" alt="image of me" />
+            </div>
+          </div>
+        </section>
+
+        <section id="project" class="third-section bg-light">
+          <div class="container">
+            <div class="project-header block-fadeIn animate__animated">
+              <h2>Some Things I've Built</h2>
+            </div>
+
+            <div class="project-block">
+              <div class="project-body block-fadeIn animate__animated">
+                <div class="img-wrapper block-fadeIn animate__animated">
+                  <img
+                    class="frame"
+                    src="filmflex.jpeg"
+                    alt="project-img"
+                  />
+                  <!-- <iframe class="frame" src="localhost:5500" title="page"></iframe> -->
+                </div>
+                <div class="description-wrapper">
+                  <div
+                    class="description-header block-fadeIn animate__animated"
+                  >
+                    <span>Personal Project</span>
+                    <h3>FilmFlix</h3>
+                  </div>
+                  <div class="description-main block-fadeIn animate__animated">
+                    <div>
+                      <p>
+                        A Simple Movie program.
+                        <br />
+                        <br />
+                        - Contains a list of movies filtered by genre.<br />
+                        - Create a user and add movies.<br />
+                        - Python,SQL <br>
+                        - Still in the process...
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="description-footer block-fadeIn animate__animated"
+                  >
+                    <div class="links-icon">
+                      <a
+                        href="filmflex.jpeg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <svg
+                          
+                          role="img"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-external-link"
+                        >
+                          <title>External Link</title>
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          ></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </a>
+                      <a
+                        href="https://github.com/seymakocas/filmflix"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <svg
+                          
+                          role="img"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-github"
+                        >
+                          <title>GitHub</title>
+                          <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-block">
+              <div class="project-body block-fadeIn animate__animated">
+                <div class="img-wrapper block-fadeIn animate__animated">
+                  <img
+                    class="frame"
+                    src="to-do-list-apps.png"
+                    alt="project-img"
+                  />
+                  <!-- <iframe class="frame" src="localhost:5500" title="page"></iframe> -->
+                </div>
+                <div class="description-wrapper">
+                  <div
+                    class="description-header block-fadeIn animate__animated"
+                  >
+                    <span>Personal Project</span>
+                    <h3>Simple Todo app</h3>
+                  </div>
+                  <div class="description-main block-fadeIn animate__animated">
+                    <div>
+                      <p>
+                        A Simple Todo app.
+                        <br />
+                        <br />
+                        - Write tasks or lists that you need to do.<br />
+                        - Remove a task after it's finished.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="description-footer block-fadeIn animate__animated"
+                  >
+                    <div class="links-icon">
+                      <a
+                        href="##"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <svg
+                          
+                          role="img"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-external-link"
+                        >
+                          <title>External Link</title>
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          ></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </a>
+                      <a
+                        href="https://github.com/seymakocas/todo-list/tree/main/todolist"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <svg
+                          
+                          role="img"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-github"
+                        >
+                          <title>GitHub</title>
+                          <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-block">
+              <div class="project-body block-fadeIn animate__animated">
+                <div class="img-wrapper block-fadeIn animate__animated">
+                  <img
+                    class="frame"
+                    src="snake.png"
+                    alt="project-img"
+                  />
+                  <!-- <iframe class="frame" src="localhost:5500" title="page"></iframe> -->
+                </div>
+                <div class="description-wrapper">
+                  <div
+                    class="description-header block-fadeIn animate__animated"
+                  >
+                    <span>Personal Project</span>
+                    <h3>Snake Game</h3>
+                  </div>
+                  <div class="description-main block-fadeIn animate__animated">
+                    <div>
+                      <p>
+                        A classic and addictive snake game where the player controls 
+                        a snake to eat food and avoid collisions with walls and itself.
+                         
+                        <br />
+                        <br />
+                        - Features simple controls, score tracking, and a game over screen with 
+                         restart option.
+                        
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="description-footer block-fadeIn animate__animated"
+                  >
+                    <div class="links-icon">
+                      <a
+                        href="https://github.com/seymakocas/snake_game_pyhton
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <svg
+                          
+                          role="img"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-external-link"
+                        >
+                          <title>External Link</title>
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          ></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </a>
+                      <a
+                        href="https://github.com/seymakocas/onlineshopping"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <svg
+                          
+                          role="img"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-github"
+                        >
+                          <title>GitHub</title>
+                          <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-block">
+              <div class="project-body block-fadeIn animate__animated">
+                <div class="img-wrapper block-fadeIn animate__animated">
+                  <img
+                    class="frame"
+                    src="onlineshp.png"
+                    alt="project-img"
+                  />
+                  <!-- <iframe class="frame" src="localhost:5500" title="page"></iframe> -->
+                </div>
+                <div class="description-wrapper">
+                  <div
+                    class="description-header block-fadeIn animate__animated"
+                  >
+                    <span>Personal Project</span>
+                    <h3>Online Commercial Website</h3>
+                  </div>
+                  <div class="description-main block-fadeIn animate__animated">
+                    <div>
+                      <p>
+                        An online commercial website designed for buying and selling products, 
+                        featuring a user-friendly interface, product listings,
+                         secure payment options, and order tracking functionality. <br> <br>
+                        <a
+                          
+                          target="_blank"
+                          class="f-clr-highlight"
+                          ></a
+                        >
+                        <br>
+                        - HTML,CSS,JS <br />
+                        - Response design.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="description-footer block-fadeIn animate__animated"
+                  >
+                    <div class="links-icon">
+                      <a
+                        href="https://github.com/seymakocas/snake_game_pyhton"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <svg
+                          
+                          role="img"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-external-link"
+                        >
+                          <title>External Link</title>
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          ></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </a>
+                      <a
+                        href="https://github.com/seymakocas/onlineshopping"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <svg
+                          
+                          role="img"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-github"
+                        >
+                          <title>GitHub</title>
+                          <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section id="contact" class="fourth-section">
+          <div class="container">
+            <h2 class="block-fadeIn animate__animated">Contact</h2>
+            <h3 class="block-fadeIn animate__animated">Get In Touch</h3>
+            <p class="block-fadeIn animate__animated">
+              Currently looking for opportunities.
+              If you interest me and my projects please email me I'll get back to you!
+            </p>
+            <a href="mailto: seymakocas@gmail.com">
+              <button
+                class="button bg-button f-clr-button block-fadeIn animate__animated"
+              >
+                Get In Touch
+              </button>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <span class="f-clr-button block-fadeIn animate__animated">
+          Designed & Build by Seyma Kocas
+        </span>
+      </footer>
+    </div>
+  </body>
+</html>
